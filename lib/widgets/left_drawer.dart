@@ -55,7 +55,7 @@ class LeftDrawer extends StatelessWidget {
               onTap: () {
                 Navigator.pushReplacement(
                   context, MaterialPageRoute(
-                    builder: (context) => MoodEntryFormPage(),
+                    builder: (context) => const MoodEntryFormPage(),
                     ));
               },
             ),
